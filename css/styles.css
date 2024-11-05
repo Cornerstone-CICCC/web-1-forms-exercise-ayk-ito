@@ -13,4 +13,78 @@ form {
   margin: 20px auto;
 }
 
+fieldset {
+  background: white;
+  border-radius: 8px;
+  border-color: #cccccc;
+  border-width: 1px;
+  margin: 10px;
+}
+
+legend {
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+  padding: 3px 3px;
+  display: inline-block;
+}
+
+input[type=text],
+[type=email],
+[type=password],
+[type=date],
+[type=time],
+[type=color] {
+  width: 98%;
+  margin: 10px auto;
+}
+
+input[list=hobby] {
+  width: 25%;
+  margin: 10px auto;
+}
+
+input[type=range] {
+  width: 25%;
+  margin: 10px auto;
+}
+
+select,
+textarea,
+input[type=file] {
+  width: 98%;
+  margin: 10px auto;
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+  padding: 3px 3px;
+  display: inline-block;
+}
+
+input[type=checkbox] {
+  margin-left: 0;
+  margin: 10px auto;
+}
+
+input[type=radio] {
+  margin-left: 0;
+  margin: 10px auto;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.reset-btn {
+  background-color: #367cf4;
+  color: white;
+}
+
+.submit-btn {
+  background-color: #367cf4;
+  color: white;
+}
+
 /*# sourceMappingURL=styles.css.map */
